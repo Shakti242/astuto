@@ -21,7 +21,11 @@ class GeneralSiteSettingsRoot extends React.Component<Props> {
   constructor(props: Props) {
     super(props);
 
-    this.store = createStoreHelper();
+    this.store = createStoreHelper({
+      search: '',
+      role: '',
+      blocked: null,
+    });
   }
 
   render() {

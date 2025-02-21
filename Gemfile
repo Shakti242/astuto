@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.6'
+# ruby '3..6'
 
 gem 'rake', '13.2.1'
 
@@ -16,6 +16,12 @@ gem 'turbolinks', '5.2.1'
 gem 'jbuilder', '2.11.5'
 
 gem 'bootsnap', '1.12.0', require: false
+gem 'mutex_m'
+gem 'bigdecimal'
+gem 'csv'
+gem 'observer'
+gem 'benchmark'
+gem 'ostruct'
 
 # CSS
 gem "cssbundling-rails", '1.1.2'

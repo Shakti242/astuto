@@ -17,6 +17,8 @@ services:
       SECRET_KEY_BASE: secretkeybasehere
     ports:
       - "3000:3000"
+    volumes: 
+      - .:/astuto
     depends_on:
       - db
 
